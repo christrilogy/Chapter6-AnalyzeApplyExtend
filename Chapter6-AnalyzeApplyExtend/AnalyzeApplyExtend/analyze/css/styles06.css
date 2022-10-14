@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student Name: Christian Morgan
+	File Name: styles06
+	Current Date: 10/13/22
 */
 
 /* CSS reset */
@@ -64,7 +64,7 @@ main {
 	font-size: 1em;
 	padding: 1em;
 	background-color: #FFFFFF;
-	border-top: solid 0.2em #110934; 
+	border-top: solid 0.2em #110934;
 	border-bottom: solid 0.2em #110934;
 }
 
@@ -77,23 +77,23 @@ footer {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 481px), print {
-    
+@media screen and (min-width: 500px), print {
+
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         display: inline-block;
         margin: 0.5%;
     }
-    
+
     nav li a {
         padding: 0.1em 1em;
     }
-    
+
 }
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 769px), print {
- 
+
     /* Desktop Viewport: Style rules for nav */
     nav li {
         border-radius: 0;
