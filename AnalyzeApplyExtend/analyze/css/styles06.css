@@ -17,8 +17,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;  
 }
 
 /* Styles for Mobile Layout */
@@ -152,7 +152,7 @@ tablet-desktop {
 
 /*Media Query for Large Desktop Viewport*/
 @media screen and (min-width: 1441px), print {
-  #container {
+ #container {
     width: 1440px;
     margin-top: 0;
     margin-bottom: 0;
